@@ -1,0 +1,16 @@
+vlan 10
+name Estudiantes
+vlan 11
+name Docentes
+vlan 12
+name Administracion
+vlan 13
+name Control de estudios
+vlan 14
+name Biblioteca
+vlan 15
+name Informatica
+vlan 16
+name Wiffi
+vlan 17
+name VoIp

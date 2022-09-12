@@ -1,0 +1,7 @@
+crypto ipsec security-association lifetime seconds 120
+
+crypto ipsec transform-set transformacion esp-aes esp-sha-hmac
+mode tunnel
+
+crypto ipsec profile IPSEC_PROFILE_LLEP
+set transform-set transformacion
